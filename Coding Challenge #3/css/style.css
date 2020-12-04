@@ -1,0 +1,30 @@
+* {
+    color:black;
+}
+
+body {
+    background: linear-gradient(to top left, #28b487, #7dd56f);
+    height: 100%;
+}
+
+h1 {
+    background-color: #75ac5f;
+    font-size: 32px;
+}
+
+p{
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+.avarageScores {
+    display: flex;
+}
+
+/* div input {
+    padding: 0px;
+    margin: 25px;
+} */

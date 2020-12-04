@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Challenge #3</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>Coding Challenge #3</h1>
+    <p>
+      There are two gymnastics teams, Dolphins and Koalas. They compete against
+      each other 3 times. The winner with the highest average score wins a
+      trophy!
+    </p>
+
+    <h2>Your tasks:</h2>
+    <p>
+      1. Calculate the average score for each team, using the test data
+      below.<br />
+      2. Compare the team's average scores to determine the winner of the
+      competition, and print it to the console. Don't forget that there can be a
+      draw, so test for that as well (draw means they have the same average
+      score).<br />
+      3. Bonus 1: Include a requirement for a minimum score of 100. With this
+      rule, a team only wins if it has a higher score than the other team, and
+      the same time a score of at least 100 points. Hint: Use a logical operator
+      to test for minimum score, as well as multiple else-if blocks. 😉<br />
+      4. Bonus 2: Minimum score also applies to a draw! So a draw only happens
+      when both teams have the same score and both have a score greater or equal
+      100 points. Otherwise, no team wins the trophy.<br />
+    </p>
+    <h2>Test data:</h2>
+    <p>
+      § Data 1: Dolphins score 96, 108 and 89. Koalas score 88, 91 and 110.<br />
+      § Data Bonus 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and
+      123.<br />
+      § Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and
+      106.<br /><br />
+
+      GOOD LUCK 😀
+    </p>
+
+    <h1>Result:</h1>
+
+    <h2>Task 01:</h2>
+
+    <h2>Select One of the options below:</h2>
+    <p>
+      <input type="radio" id="scores01" name="scores" onclick="clickme();" checked/>§ Data 1: Dolphins score 96, 108
+      and 89. Koalas score 88, 91 and 110.<br />
+      <input type="radio" id="scores02" name="scores" onclick="clickme();"/>§ Data Bonus 1: Dolphins score 97,
+      112 and 101. Koalas score 109, 95 and 123.<br />
+      <input type="radio" id="scores03" name="scores" onclick="clickme();"/>§ Data Bonus 2: Dolphins score 97,
+      112 and 101. Koalas score 109, 95 and 106.
+    </p>
+
+    <div class="avarageScores">
+      <p>Dolphins Average Score: </p>
+      <p id="DAS"></p>
+    </div>
+    <div class="avarageScores">
+      <p>Koalas Average Score: </p>
+      <p id="KAS"></p>
+    </div>
+    <div class="avarageScores">
+        <p>Result: </p>
+        <p id="result"></p>
+      </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
